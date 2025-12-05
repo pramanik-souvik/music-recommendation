@@ -63,3 +63,13 @@ music-recommender-java/
 ├─ README.md
 ```
 
+
+---
+
+## Dataset
+
+The `songs.csv` contains all the song metadata used for recommendation. A sample row:
+
+```csv
+ABBA,She's My Kind Of Girl,joy,0.4476,pop,2014,F Maj,128,-6.0,No,31,78,56,60,3,31,7,0
+```
