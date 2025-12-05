@@ -73,3 +73,42 @@ The `songs.csv` contains all the song metadata used for recommendation. A sample
 ```csv
 ABBA,She's My Kind Of Girl,joy,0.4476,pop,2014,F Maj,128,-6.0,No,31,78,56,60,3,31,7,0
 ```
+
+**Columns:**
+- `artist` – Song artist
+- `song` – Song title
+- `emotion` – Emotion category
+- `variance` – Emotion variance
+- `Genre` – Music genre
+- `Release Date` – Year of release
+- `Key` – Musical key
+- `Tempo` – BPM
+- `Loudness` – Decibels
+- `Explicit` – Yes/No
+- `Popularity` – Spotify-like popularity score
+- `Energy` – Numeric energy
+- `Danceability` – Numeric danceability
+- `Positiveness` – Numeric positiveness (used instead of valence)
+- `Speechiness`, `Liveness`, `Acousticness`, `Instrumentalness` – Additional numeric features
+
+---
+
+## Dependencies
+
+- **Java 17+** (or compatible JDK)
+- **Gradle 9.1+**
+- **JavaFX 21** (`javafx-controls`, `javafx-fxml`)
+- **Weka 3.8.6** (for KMeans clustering)
+
+Gradle automatically handles these dependencies.
+
+---
+
+## Setup and Build
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd music-recommender-java
+```
