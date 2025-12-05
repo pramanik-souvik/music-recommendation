@@ -46,3 +46,20 @@ A Java-based music recommender system that uses **JavaFX** for the user interfac
 
 ## Project Structure
 
+```
+music-recommender-java/
+├─ app/
+│ ├─ build.gradle.kts
+│ ├─ src/
+│ │ ├─ main/
+│ │ │ ├─ java/com/music/recommender/
+│ │ │ │ ├─ MainApp.java # JavaFX main application
+│ │ │ │ ├─ Main.java # Original console-based main
+│ │ │ │ ├─ MusicDataset.java # Loads CSV dataset
+│ │ │ │ ├─ Recommender.java # Recommendation logic (KMeans & similarity)
+│ │ │ │ ├─ Song.java # Song model class
+│ │ │ ├─ resources/
+│ │ │ │ ├─ songs.csv # Music dataset
+├─ README.md
+```
+
