@@ -60,6 +60,7 @@ music-recommender-java/
 │ │ │ │ ├─ Song.java # Song model class
 │ │ │ ├─ resources/
 │ │ │ │ ├─ songs.csv # Music dataset
+│ │ │ │ ├─ style.css
 ├─ README.md
 ```
 
