@@ -112,3 +112,11 @@ Gradle automatically handles these dependencies.
 git clone <your-repo-url>
 cd music-recommender-java
 ```
+
+2. gradle.properties
+
+```bash
+org.gradle.configuration-cache=false
+org.gradle.parallel=true
+org.gradle.caching=true
+```
